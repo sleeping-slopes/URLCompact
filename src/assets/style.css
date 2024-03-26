@@ -1,0 +1,182 @@
+html { font-family: "Sofia Sans", sans-serif; }
+
+body { background-color:whitesmoke; }
+
+#app
+{
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+
+header
+{
+    text-align: center;
+    font-size:48px;
+    font-weight:800;
+    padding:20px 0 10px 0;
+    color:cornflowerblue;
+}
+
+a
+{
+    /* color:inherit; */
+    color:cornflowerblue;
+    text-decoration: none;
+}
+
+a:not(.logo):hover { text-decoration: underline; }
+
+p
+{
+    font-size:16px;
+    padding:0px 2px 0px 2px;
+    color:#202020;
+}
+
+main
+{
+    padding:0 20px 0 20px;
+    background-color:whitesmoke;
+}
+
+.button-primary
+{
+    background-color:cornflowerblue;
+    color:white;
+    font-size:18px;
+    border:none;
+    height:36px;
+    border-radius:9px;
+    margin:5px;
+    cursor:pointer;
+}
+
+footer
+{
+  margin-top:auto;
+  padding:10px;
+  text-align:center;
+  background-color:#333333;
+}
+
+footer > nav > ul
+{
+    display:inline-block;
+    list-style: none;
+    padding:0;
+    margin:0 0 10px 0;
+    color:cornflowerblue;
+}
+
+footer > nav > ul > li
+{
+    display:inline;
+    padding:0 12px;
+    border-right: 1px solid black;
+}
+
+footer > nav > ul > li:last-child
+{
+    border-right: none;
+}
+
+main > section
+{
+    max-width:768px;
+    margin:20px auto 20px auto;
+    text-align: center;
+}
+
+.panel
+{
+    background-color:#ffffff;
+    border-radius:5px;
+    padding:10px;
+    box-sizing: border-box;
+    box-shadow:0 0 4px 2px #ccc;
+}
+
+h1,h2,h3,h4,h5,h6 { color:#555555; }
+
+.advantage-list
+{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    width:100%;
+}
+
+.advantage-card
+{
+    width: 33.33%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantage-card > i { font-size:64px; color:#555555; }
+
+.advantage-card > h3 {font-size:24px;}
+
+.advantage-card > p { font-size:16px; }
+
+.form-url
+{
+    height:36px;
+    width:100%;
+    display:flex;
+    margin:0 auto;
+    max-width:450px;
+}
+
+.form-url > input[type=text]
+{
+    font-size:18px;
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0 9px 0 9px;
+    border:1px solid #555555;
+    box-sizing: border-box;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+.form-url > input[type=submit]
+{
+    height:100%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin:0;
+}
+
+.project-info
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:40px;
+}
+
+.project-info > section
+{
+    text-align: left;
+    max-width:250px;
+}
+
+.project-info > section > h4
+{
+    font-size:16px;
+    color:#eeeeee;
+    padding:0;
+    margin:0 0 5px 0;
+}
+
+.project-info > section > p
+{
+    color:#eeeeee;
+    font-size:12px;
+    margin:0;
+    padding:0;
+}
